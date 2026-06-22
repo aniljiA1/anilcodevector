@@ -1,4 +1,8 @@
-# CodeVector Take-Home Task — Product Browser
+# CodeVector Task — Product Browser
+
+## Deploy:
+Live Demo: https://anilcodevector.vercel.app
+Backend health: https://anilcodevector.onrender.com/api/health
 
 **Stack:** Next.js (frontend) + Node.js/Express (backend) + MongoDB
 
@@ -97,5 +101,7 @@ Used Claude to scaffold the boilerplate (Express routes, Next.js page,
 package.json files) quickly, but the pagination *design* — keyset vs offset,
 and choosing `created_at` over `updated_at` as the sort key for stability —
 is the core decision the task is testing, and is laid out in comments in
-`backend/server.js` and `backend/simulateLiveChanges.js` so it can be
-discussed/changed live in the interview.
+`backend/server.js` and `backend/simulateLiveChanges.js` 
+
+## Author 
+**Anil Kumar**
